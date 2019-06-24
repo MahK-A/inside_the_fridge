@@ -1,0 +1,55 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  width: 80%;
+  height: 2em;
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
+}
+
+li {
+  list-style: circle;
+}
+
+.xbutton {
+  border: none;
+  color: grey;
+}
+
+.xbutton:hover {
+  border: none;
+  color: red;
+}
+
+#func {
+  padding: 2ex;
+}
+
+#func {
+  border: 1px solid;
+}
+#func:hover {
+  color: red;
+}
+#func:active {
+  color: red;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+#clear {
+  padding: 2ex;
+}
+#clear {
+  border: 1px solid;
+}
+#clear:hover {
+  border: 1px dashed;
+  color: blue;
+}
+#clear:active {
+  color: blue;
+  background-color: rgba(0, 0, 255, 0.3);
+}
